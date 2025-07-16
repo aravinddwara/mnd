@@ -1,11 +1,7 @@
 plugins {
-    kotlin("jvm") version "1.7.10"
+    id("org.jetbrains.kotlin.jvm")
 }
 
-subprojects {
-    apply(plugin = "org.jetbrains.kotlin.jvm")
-    repositories {
-        mavenCentral()
-        google()
-    }
+dependencies {
+    implementation(project(":cloudstream3"))
 }
