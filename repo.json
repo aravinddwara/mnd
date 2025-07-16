@@ -1,0 +1,18 @@
+{
+  "name": "TamilDhool Cloudstream Repo",
+  "description": "Watch Vijay TV, Sun TV, Zee Tamil, and Kalaignar TV serials from TamilDhool",
+  "manifestVersion": 1,
+  "plugins": [
+    {
+      "name": "TamilDhool",
+      "package": "com.tamildhool",
+      "versionCode": 1,
+      "versionName": "1.0",
+      "mainClass": "com.tamildhool.TamildhoolPlugin",
+      "sources": ["TvSeries"],
+      "dependencies": [],
+      "lang": "en",
+      "url": "tamildhool/build/libs/tamildhool.cs3"
+    }
+  ]
+}
